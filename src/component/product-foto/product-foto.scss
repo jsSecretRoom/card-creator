@@ -1,0 +1,40 @@
+.product-foto{
+    margin: 5px;
+    width: 270px;
+    height: 320%;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    .img-conteiner{
+        padding: 50px 25px;
+        img{
+            width: 100%;
+        }
+    }
+    .fich-new-product{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background-color: #45FF58;
+        border-radius: 50px;
+        height: 28px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fich-end-product{
+        position: absolute;
+        bottom: 10px;
+        left: 35%;
+        color: #F8004A;
+        font-size: 16px;
+    }
+    .fich-like-product{
+        top: 10px;
+        right: 10px;
+        position: absolute;
+        background: none;
+    }
+}

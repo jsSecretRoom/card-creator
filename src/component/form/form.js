@@ -1,3 +1,5 @@
+import './form.scss'
+
 import InputContainer from "../input-container/input-container";
 import RadioContainer from "../radio-container/radio-container";
 function Form() {

@@ -1,3 +1,4 @@
+import './dell-remake-buttons.scss'
 
 function DellRemakeButtons(){
     return(

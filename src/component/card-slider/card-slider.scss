@@ -1,0 +1,75 @@
+.product-slider {
+    overflow-x: hidden;
+    .slider-continer {
+        position: relative;
+        .left, .right{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .left {
+            left: 80px;
+        }
+        .right {
+            right: 80px;
+        }
+        .slides {
+            display: flex;
+            .slide{
+                flex: 0 0 auto;
+                object-fit: cover;
+                user-select: none;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                .end-product-feach{
+                    width: 280px;
+                    height: 500px;
+                    background-color: #5b5d5b79;
+                    z-index: 2;
+                    position: absolute;
+                    border-radius: 10px;
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        color: #F8004A;
+                        font-size: 30px;
+                        text-decoration: underline;
+                    }
+                }
+                .end-product-feach.activ{
+                    display: flex;
+                }
+                .slide-indicator{
+                    background-color: #b98aff;
+                    border-radius: 10px;
+                    width: 280px;
+                    height: 500px;
+                    display: flex;
+                    
+                    flex-direction: column;
+                    align-items: center; 
+                }
+                .slide-indicator.new{
+                    background-color: #45FF58;
+                }
+                .slide-indicator.top{
+                    background-color: #FA9926;
+                }
+                .slide-indicator.warning{
+                    background-color: #F8004A;
+                }
+                .slide-indicator.end{
+                    background-color: #545454;
+                }
+            }
+        }
+    }
+}

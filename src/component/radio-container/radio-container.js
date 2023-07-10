@@ -1,4 +1,6 @@
 
+import './radio-container.scss'
+
 function RadioContainer({ label, className, id }) {
     return (
       <div className="radio-conteiner">

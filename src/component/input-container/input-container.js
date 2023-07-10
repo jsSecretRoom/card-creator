@@ -1,3 +1,4 @@
+import './input-conteiner.scss'
 function InputContainer({ label, type }) {
     return (
         <div className="input-conteiner">

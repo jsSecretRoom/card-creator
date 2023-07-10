@@ -1,0 +1,42 @@
+.product-info{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 270px;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+    padding: 10px;background: linear-gradient( 90deg, #323932, #6AB66D);
+    .main-product {
+        #navigation-name{
+            font-size: 18px;
+            color: aqua;
+        }
+        #naim-product{
+            font-size: 16px;
+            color: white;
+        }
+    }
+    .second {
+        display: flex;
+        justify-content: space-between;
+        .cherecters {
+            p{
+                font-size: 18px;
+                color: #ffffff;
+            }
+        }
+        .price {
+            text-align: center;
+            #old-price{
+                color: white;
+                font-size: 16px;
+                text-decoration: line-through;
+            }
+            #new-price{padding: 10px 0  ;
+                color: #F8004A;
+                font-size: 22px;
+            }
+        }
+    }
+}

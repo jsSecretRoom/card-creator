@@ -1,3 +1,4 @@
+import './back-button-component.scss'
 function BackButtonComponent(){
     return(
         <div className="back">
