@@ -1,7 +1,7 @@
 import './product-foto.scss'
 
 
-import favirite from '../../assets/icons/Favorite.svg'
+import favorite from '../../assets/icons/Favorite.svg'
 
 function ProductFoto({productImg}){
     return(
@@ -12,7 +12,7 @@ function ProductFoto({productImg}){
             <p className="fich-new-product" id="new-product">Новинка!</p>
             <p className="fich-end-product" id="end-product">Закінчуеться!</p>
             <button className="fich-like-product" id="like-product">
-                <img src={favirite}/>
+                <img src={favorite}/>
             </button>
         </div>
     );

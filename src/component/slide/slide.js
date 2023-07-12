@@ -5,7 +5,9 @@ import ProductInfo from "../product-info/product-info"
 
 import img1 from '../../assets/imgs/phone.jpg'
 
-function Slide(){
+function Slide({category, productName, description1, description2,
+    description3, priceWithoutDiscount, discountPrice, fotoLink}){
+
     return(
         <div className="slide">
             <div className="end-product-feach">
@@ -15,13 +17,16 @@ function Slide(){
             <div className="slide-indicator">
                 <ProductFoto productImg={img1}/>
 
-                <ProductInfo navNaim="Мобільній телефон..." 
-                productDeskNaim="+NAME PRODUCT..." 
-                chrecter1="Характеристики..." 
-                chrecter2="Характеристики..." 
-                chrecter3="Характеристики..." 
-                priceWithoutDisCOUNT="999 99" 
-                priceWithDiscount="99 999"/>
+                <ProductInfo 
+                    navNaim={category} 
+                    productDeskNaim={productName} 
+                    chrecter1={description1} 
+                    chrecter2={description2} 
+                    chrecter3={description3} 
+                    priceWithoutDisCOUNT={priceWithoutDiscount} 
+                    priceWithDiscount={discountPrice}
+                    
+                />
             </div>
         </div>
     );
