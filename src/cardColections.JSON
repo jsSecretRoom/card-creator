@@ -1,0 +1,46 @@
+{
+    "db": [
+        {
+            "category": "Mobile",
+            "productName": "samsung galaxy ultra 1010nex pro max 108px black",
+            "description1": "desk1",
+            "description2": "desk2",
+            "description3": "desk3",
+            "priceWithoutDiscount": "999 999",
+            "discountPrice": "888 888",
+            "newProduct": "true",
+            "topSales": "false",
+            "isMissing": "false",
+            "warning": "false",
+            "fotoLink": "https://kcentr.ru/reviews/top_7_smartfonov_s_khoroshey_kameroy_v_2022_godu/"
+        },
+        {
+            "category": "Mobile",
+            "productName": "samsung galaxy ultra 1010nex pro max 108px black",
+            "description1": "desk1",
+            "description2": "desk2",
+            "description3": "desk3",
+            "priceWithoutDiscount": "999 999",
+            "discountPrice": "888 888",
+            "newProduct": "false",
+            "topSales": "true",
+            "isMissing": "false",
+            "warning": "true",
+            "fotoLink": "https://kcentr.ru/reviews/top_7_smartfonov_s_khoroshey_kameroy_v_2022_godu/"
+        },
+        {
+            "category": "Mobile",
+            "productName": "samsung galaxy ultra 1010nex pro max 108px black",
+            "description1": "desk1",
+            "description2": "desk2",
+            "description3": "desk3",
+            "priceWithoutDiscount": "999 999",
+            "discountPrice": "888 888",
+            "newProduct": "false",
+            "topSales": "false",
+            "isMissing": "true",
+            "warning": "false",
+            "fotoLink": "https://kcentr.ru/reviews/top_7_smartfonov_s_khoroshey_kameroy_v_2022_godu/"
+        }
+    ]
+}

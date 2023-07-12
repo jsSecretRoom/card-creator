@@ -7,6 +7,7 @@ function Form() {
         <form action="">
             <button className="start-create">Create new card?</button>
             <div className="inputs">
+                <InputContainer label="Введіть категорію продукту!" type="text" />
                 <InputContainer label="Введіть назву продукту!" type="text" />
                 <InputContainer label="Введіть Характеристики продукту!" type="text" />
                 <InputContainer label="Введіть Характеристики продукту!" type="text" />

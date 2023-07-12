@@ -1,4 +1,4 @@
-.input-conteiner, .input-new-category{
+.input-conteiner {
     display: flex;
     flex-direction: column;
     
@@ -11,10 +11,4 @@
         border-radius: 5px;
         padding: 0 12px;
     }
-}
-.input-new-category{
-    display: none;
-}
-.input-new-category.active{
-    display: flex;
 }

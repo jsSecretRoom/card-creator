@@ -6,7 +6,18 @@ import BackButtonComponent from './component/back-button-component/back-button-c
 import DellRemakeButtons from './component/dell-remake-buttons/dell-remake-buttons';
 import SearchCardCom from './component/search-card-com/search-card-com';
 
-function App() {
+
+
+// import connectToMongoDB from './component/database/database';
+
+// async function getDataFromMongoDB() {
+//   const data = await connectToMongoDB();
+//   console.log(data); // Ваши данные из базы данных MongoDB
+// }
+
+// getDataFromMongoDB();
+
+function App(props) {
   return (
     <div className="body-conteiner">
       <main className="cards-form-conteiner">
