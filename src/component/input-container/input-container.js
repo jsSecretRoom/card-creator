@@ -2,8 +2,10 @@ import './input-conteiner.scss'
 function InputContainer({ label, type }) {
     return (
         <div className="input-conteiner">
-          <label htmlFor="">{label}</label>
-          <input type={type} name="" id=""/>
+          <label>{label}
+            <input type={type} name="" id=""/>
+          </label>
+          
         </div>
     );
 }

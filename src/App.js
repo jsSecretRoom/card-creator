@@ -20,7 +20,7 @@ import SearchCardCom from './component/search-card-com/search-card-com';
 const data = [
   {
     id: "12121",
-    category: "Mobile",
+    category: "Mobile1",
     productName: "samsung galaxy ultra 1010nex pro max 108px black",
     description1: "desk1",
     description2: "desk2",
@@ -36,7 +36,7 @@ const data = [
   },
   {
     id: "121231",
-    category: "Mobile",
+    category: "Mobile2",
     productName: "samsung galaxy ultra 1010nex pro max 108px black",
     description1: "desk1",
     description2: "desk2",
@@ -52,7 +52,7 @@ const data = [
   },
   {
     id: "121214",
-    category: "Mobile",
+    category: "Mobile3",
     productName: "samsung galaxy ultra 1010nex pro max 108px black",
     description1: "desk1",
     description2: "desk2",
